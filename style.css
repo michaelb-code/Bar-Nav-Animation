@@ -60,7 +60,7 @@ nav a span {
     border-radius: 15px;
     transform: scale(0) translate(50px);
     opacity: 0;
-    transform: 1s;
+    transform: .5s;
 }
 
 nav a:hover span{
