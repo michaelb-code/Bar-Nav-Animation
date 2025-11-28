@@ -103,15 +103,19 @@ label{
     
     color: #fff;
 }
+
 label:hover{
 
     color:aqua;
-    transform: scale(1.5);
 }
 
 input {
     border: aqua 2px solid;
     border-radius: 5px;
+}
+input:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }
 
 textarea{
@@ -127,6 +131,7 @@ textarea{
 br{
     margin-bottom: 5px;
 }
+
 button{
     margin-top: 40px;
     height: 30px;
@@ -139,6 +144,7 @@ button{
     border-radius: 10px;
     
 }
+
 button:hover{
    background-color: aqua;
    transform: scale(1.05);
